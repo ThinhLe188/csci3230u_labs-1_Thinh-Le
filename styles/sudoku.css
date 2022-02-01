@@ -1,0 +1,44 @@
+.sudoku-board,
+.numbers-palatte {
+	padding: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sudoku-board {
+	font-weight: bold;
+}
+
+colgroup,
+tbody {
+	border: solid medium;
+}
+
+td {
+	border: solid thin;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding: 0;
+}
+
+.numbers-palette-table td {
+	border: solid medium;
+}
+
+td:hover {
+	background-color: #f5dd90;
+}
+
+.user-input {
+	background-color: #f2f2f2;
+}
+
+.error {
+	background-color: #f76c5e;
+}

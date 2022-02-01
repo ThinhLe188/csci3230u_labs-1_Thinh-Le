@@ -1,1 +1,1 @@
-# csci3230u_labs_Thinh-Le
+# csci3230u - Sudoku Game - Thinh Le
