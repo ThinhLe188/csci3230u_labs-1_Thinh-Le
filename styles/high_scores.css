@@ -1,0 +1,17 @@
+.d-inline-block {
+	margin-right: 30px;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+th {
+	border-bottom: solid thin;
+}
