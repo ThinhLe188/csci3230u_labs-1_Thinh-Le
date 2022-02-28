@@ -77,7 +77,8 @@ window.onload = function() {
     if (playerSolved) {
       var today = new Date().toJSON().slice(0,10).replace(/-/g,'/');
       var duration = minutesLabel.innerText + ":" + secondsLabel.innerText;
-      var newRecord = {"date": today, "duration": duration};
+      var newRecord = {date: today, duration: duration};
+      window.localStorage.setItem(JSON.stringify(newRecord), JSON.stringify(newRecord));
     }
   }
 
