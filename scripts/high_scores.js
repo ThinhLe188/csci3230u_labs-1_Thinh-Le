@@ -28,9 +28,9 @@ window.onload = function() {
             headerRow.appendChild(header);
         });
         table.appendChild(headerRow);
-        records.forEach(emp => {
+        records.forEach(record => {
             var row = document.createElement('tr');
-            Object.values(emp).forEach(text => {
+            Object.values(record).forEach(text => {
                 var cell = document.createElement('td');
                 var textNode = document.createTextNode(text);
                 cell.appendChild(textNode);

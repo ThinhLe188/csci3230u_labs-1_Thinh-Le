@@ -189,7 +189,7 @@ window.onload = function() {
  resetBtn.onclick = function() {
   for (var i = 0, row; row = table.rows[i]; i++) {
     for (var j = 0, col; col = row.cells[j]; j++) {
-      row.cells[j].innerText = startArray[i][j] == "-1" ? "" : startArray[i][j];
+      row.cells[j].innerText = startArray[i][j] == "0" ? "" : startArray[i][j];
       row.cells[j].classList.remove("user-input");  
       row.cells[j].classList.remove("error");
     }  
