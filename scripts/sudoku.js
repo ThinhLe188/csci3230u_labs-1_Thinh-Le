@@ -69,7 +69,7 @@ window.onload = function() {
       sudokuCells[i].removeEventListener("click", sudokuInputHandler);
       sudokuCells[i].classList.remove("user-input");
       sudokuCells[i].classList.remove("const");
-      sudokuCells[j].classList.remove("error");
+      sudokuCells[i].classList.remove("error");
     }
     inputCellsArray = [];
     solveBtn.disabled = true;
